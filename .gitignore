@@ -9,3 +9,5 @@ __pycache__
 venv/
 
 # Datasets
+email_authors.pkl
+word_data.pkl
