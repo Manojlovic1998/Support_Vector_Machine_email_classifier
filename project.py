@@ -10,7 +10,7 @@ features_train, features_test, labels_train, labels_test = preprocess(words_file
 features_train = features_train[:int(len(features_train)/100)]
 labels_train = labels_train[:int(len(labels_train)/100)]
 
-clf = SVC(kernel='linear')
+clf = SVC(kernel='rbf')
 
 print("Started Training the model!")
 time_fit = time()
